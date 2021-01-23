@@ -1,0 +1,304 @@
+/* Normal desktop :992px. */
+@media (max-width: 1200px) {
+
+.features-section .features-right .features-img {
+
+    width: 525px;
+    position: absolute;
+    bottom: 0px;
+    right: 120px;
+    z-index: 1;
+
+}
+    
+    
+}
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+ 
+.top-header {
+    height: 380px;
+}
+
+.top-header .header-wrapper {
+    width: 100%;
+    text-align: center;
+}
+.features-section .features-content .features-box .content p {
+    padding-right: 40px;
+} 
+
+    .features-section .features-right .features-img {
+    width: 485px;
+}
+ .work-section .work-area .sample-single {
+    width: 25%;
+}  
+
+.company-section .count h2::before {
+    left: 14px;
+}
+    .company-section .count h2::after {
+    right: 14px;
+}
+.purchase-section .row {
+    flex-wrap: nowrap;
+} 
+  .purchase-section .purchase-wrap h2 {
+    margin-left: 210px;
+    width: 100%;
+}  
+.purchase-section .purchase-wrap a,button {
+    display: block;
+    width: 100%;
+} 
+  .title p {
+    margin-top: 10px;
+    padding: 0px 50px;
+}  
+    
+   .team-section .team-wrapper .team-overlay {
+    left: 291px;
+} 
+    
+    .price-section .col-3 {
+    flex-basis: 50%;
+        margin-top: 50px;
+}
+    .satisfied-section .satisfied-right .button {
+    margin: 10px 3px;
+}
+    
+
+}
+@media (max-width: 918px) {
+
+    
+.features-section .features-content .col-4 {
+    flex-basis: 100%;
+    margin-left: 130px;
+}   
+   .features-section .features-content .features-right {
+    margin-top: 289px;
+} 
+ .features-section .features-right .features-img {
+
+    right: 212px;
+     
+}
+    
+    .features-section .features-content .features-box {
+    justify-content: inherit;
+}
+    
+.satisfied-section .satisfied-right .button {
+
+    margin: 10px 3px;
+}    
+   .quote-section .owl-carousel .owl-nav div.owl-next {
+    left: auto;
+    right: 43.5%;
+}    
+   .quote-section .owl-carousel .owl-nav div.owl-prev {
+    left: 43.5%;
+} 
+    
+}
+
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+
+    
+   .top-header {
+    height: 380px;
+}
+ .top-header .header-wrapper {
+    width: 100%;
+    text-align: center;
+}
+    
+  .service-section .service-area .col-4 {
+    flex-basis: 100%;
+}  
+    
+     .title p {
+    padding: 0px 0px;
+         margin-top: 15px;
+}  
+    
+   .features-content .col-4 {
+    flex-basis: 100%;
+}
+    
+    .features-section .features-content .features-right {
+    margin-top: 300px;
+}
+    .features-section .features-right .features-img {
+    width: 485px;
+}
+    .features .col-4 {
+    flex-basis: 50%;
+}
+  .features-bottom .features-box {
+    flex-wrap: wrap;
+}  
+  .features-bottom .features-box .f-box-righ {
+    margin-top: 40px;
+}
+    .skill-section .col-2 {
+    flex-basis: 50%;
+}   
+    
+   .work-section .work-area .sample-single {
+    width: 33.33%;
+} 
+    
+  .company-section .count h2 {
+    font-size: 40px;
+}  
+   .company-section .count h2::before {
+    width: 7px;
+    height: 7px;
+    left: 5px;
+}  
+   .company-section .count h2::after {
+    width: 7px;
+    height: 7px;
+    right: 5px;
+} 
+   .company-section .counter-bottom .counter-icon::before {
+    left: 4px;
+} 
+  
+   .company-section .counter-bottom .counter-icon::after {
+    right: 4px;
+} 
+   .company-section .counter-bottom h5 {
+    font-size: 8px; 
+} 
+ .company-section .counter-bottom h5 span {
+    font-size: 7px;
+}   
+.satisfied-section .satisfied-left h3 {
+    margin-bottom: 20px;
+}    
+  .team-section .owl-carousel .owl-nav div.owl-next {
+    left: auto;
+    right: -30px;
+}  
+    
+  .team-section .owl-carousel .owl-nav div.owl-prev {
+    left: -30px;
+}  
+ .team-section .team-wrapper .team-overlay {
+    left: 95px;
+}   
+  .quote-section .owl-carousel .owl-nav div.owl-next {
+    left: auto;
+    right: 40%;
+}  
+  .quote-section .owl-carousel .owl-nav div.owl-prev {
+    left: 40%;
+}  
+ .price-section .col-3 {
+    flex-basis: 100%;
+    margin-top: 50px;
+}   
+.purchase-section .purchase-wrap h2 {
+    font-weight: bold;
+    margin-left: 140px;
+}    
+    
+.purchase-section .purchase-wrap a {
+    margin-left: 140px;
+    margin-top: 40px;
+}    
+    
+ .purchase-section .puchz-img {
+    width: 160px;
+    bottom: -8px;
+    left: 100px;
+    position: absolute;
+}   
+    .purchase-section .puchz-img img {
+    width: 160px;
+    position: absolute;
+    bottom: 0px;
+}
+ .f-contact-section .f-cntact-icon a {
+    margin-top: 13px;
+}   
+    
+    
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+ .features-section .features-content .features-right {
+    display: none;
+}
+   
+  .features .col-4 {
+    flex-basis: 100%;
+}  
+.skill-section .col-2 {
+    flex-basis: 100%;
+}    
+ .work-section .work-area .sample-single {
+    width: 50%;
+}   
+  
+ .company-section .col-3 {
+    flex-basis: 100%;
+     margin-top: 40px;
+}   
+ .company-section .counter-bottom {
+    display: none;
+}  
+    .company-section .count h2 {
+    font-size: 70px;
+}
+  .company-section .count h2::before {
+    width: 10px;
+    height: 10px;
+    left: 130px;
+}
+  .company-section .count h2::after {
+    width: 10px;
+    height: 10px;
+    right: 130px;
+}  
+    .client-section .owl-carousel .owl-nav div.owl-next {
+    left: auto;
+    right: 8px;
+}     
+
+.client-section .owl-carousel .owl-nav div {
+    left: 8px;
+
+}  .purchase-section .purchase-wrap h2 {
+    font-weight: bold;
+    margin-left: 0px;
+}
+  .purchase-section .puchz-img {
+    bottom: -57px;
+    left: 0px;
+    position: absolute;
+}  
+   
+.footer-section .form {
+    left: 64px;
+
+} 
+    
+   .top-header .header-wrapper h1 {
+    font-size: 30px;
+    letter-spacing: 1px;
+} 
+   .title .hrForbar {
+    font-size: 18px;
+} 
+}
